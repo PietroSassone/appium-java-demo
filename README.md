@@ -41,7 +41,7 @@ The screenshot is added to the test reporting.
 
 **5. Pre-requirements for running the tests**
 - Have Maven installed.
-- Have Java installed, at lest version 11.
+- Have Java installed, at least version 11.
 - Have Android SDK installed and setup properly.
 - Have a running instance of a device emulator running with Android SDK.  
 Recommended: Galaxy Nexus with Android 9.  
