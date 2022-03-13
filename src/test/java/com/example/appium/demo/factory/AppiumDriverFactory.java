@@ -22,7 +22,7 @@ public class AppiumDriverFactory {
     private static final String APP_UNDER_TEST_URL = "https://github.com/cloudgrey-io/the-app/releases/download/v1.10.0/TheApp-v1.10.0.apk";
     private static final String APPIUM_SERVER_LOCAL_URL = "http://localhost:4723/wd/hub";
     private static final String BROWSERSTACK_DRIVER_REMOTE_URL = "http://hub.browserstack.com/wd/hub";
-    private static final String APP_UNDER_TEST_BROWSERSTACK_URL = "bs://d843806f7366ab84316221b3d13077562482e027";
+    private static final String APP_UNDER_TEST_BROWSERSTACK_URL = "bs://5bd42cde4ebfb49123e169eb66e8ce87ace6777d";
     private static final String BROWSERSTACK_USERNAME = System.getenv("BROWSERSTACK_USERNAME");
     private static final String BROWSERSTACK_ACCESS_KEY = System.getenv("BROWSERSTACK_ACCESS_KEY");
     private static final int TEN_SECONDS = 10;
@@ -34,7 +34,6 @@ public class AppiumDriverFactory {
     private String browserStackDevice;
 
     private AppiumDriver<AndroidElement> driver;
-    private RemoteWebDriver mobileWebDriver;
 
     public void setUpAndroidDriverLocal(final boolean useMobileApp) {
         DesiredCapabilities capabilities = new DesiredCapabilities();
