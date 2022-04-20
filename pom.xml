@@ -46,7 +46,6 @@
               <goal>verify</goal>
             </goals>
             <configuration>
-              <excludes>**/RunCucumberTestsIT.java</excludes>
               <argLine>-Dfile.encoding=UTF-8</argLine>
               <systemPropertyVariables>
                 <cucumber.filter.tags>${cucumber.filter.tags}</cucumber.filter.tags>
